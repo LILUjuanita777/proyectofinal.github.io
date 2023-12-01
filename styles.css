@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+/*
+familia de fuentes: 'Bebas Neue', sans-serif;
+familia de fuentes: 'Mochiy Pop One', sans-serif;
+*/
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'poppins',sans-serif ;
+    background-color: rgb(254, 220, 0);
+}
+
+img{
+    max-width: 100%; 
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 50px 0 0 0;
+    background-color: rgb(255, 191, 1);
+} 
+
+
+.menu{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+ .menu .navbar ul li a {
+    font-size: 19px;
+    padding: 20px;
+    color: black;
+    display: block;
+    font-weight: 600;
+ }
+
+ #menu {
+    display: none;
+   }
+
+ .menu-icono{
+    width: 25px;
+ }
+
+ .menu label {
+    cursor: pointer;
+    display: none;
+ }
+ .header-content{
+    display: flex;
+    align-items: center;
+ }
+ .header-txt{
+    flex-basis: 50%;
+ }
+ .header-txt h1 {
+    font-size: 100px;
+    line-height: 1;
+    color: black;
+    font-family: 'bebas Neue', sans-serif;
+    margin-bottom: 30px ;
+    padding: 10px 30px 10px ;
+ }
+
+p{
+    color: rgb(255, 255, 255);;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+.btn-1{
+    display: flex;
+    padding: 13px 35px;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    width: 300px;
+}
+ .btn-1:hover{
+    background-color: rgb(57, 236, 236);
+ }
+
+ .header-img{
+    flex-basis: 50%;
+ }
+
+ .header-img img{
+    width: 850px;
+ }
+
+ .informacion{
+    padding: 50px 0;
+ }
+
+ .informacion-content{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+
+ .informacion-box{
+    flex-basis: 50%;
+    display: flex;
+ }
+
+  .card-1{
+    flex-basis: calc(50% - 100px);
+    background-color: rgb(255, 191, 1);
+    border-radius: 25px;
+    margin-right: 18px;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+  }
+
+ .card-1 img{
+    width: 220px;
+    height: 220px;
+    margin-top: -27px
+ }
+
+  .card-1 h3{
+font-size: 20px;
+margin: 0 0 10px 0;
+color: black;
+  }
+
+  .card-1 p{
+    margin-bottom: 10px;
+    size: 11px;
+  }
+
+  .informacion-txt{
+    flex-basis: 50%;
+  }
+
+  .h2{
+   color: black;
+   font-size: 40px;
+   line-height: 1;
+   margin-bottom: 30px;
+  }
+
+  .general{
+    padding: 50ppx  0;
+    background-color: aliceblue;
+  }
+
+  .contact{
+    padding: 50px 0;
+    background-color: rgb(255, 191, 1);
+  }
+
+  .contact-content{
+    text-align: center;
+    padding: 0 100px;
+  }
+
+  .footer{
+    padding: 100px 0 50px 0;
+    background-color: aliceblue;
+  }
+
+  .footer-content{
+    display: flex;
+    justify-content: space space-between;
+  }
+
+  .link h3{
+    color: black;
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .link a{
+    font-size: 17px;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .link a:hover{
+    color: rgb(255, 191, 1);
+  }
+
+   .menu{
+    padding: 20px;
+   }
+
+   .menu .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color:rgb(230, 4, 120);
+   } 
+   .form-login {
+      text-align: center;
+   }
+    .input-container > input{
+        margin-bottom: 10px;
+        border-radius: 25px;
+       background: rgb(255, 191, 1);
+      font-size: 21px;
+      text-align: center;
+    }
+    h4{
+        font-size: 30px;
+        color: rgb(230, 4, 120);
+    }
+  .btn{
+    background-color:  rgb(230, 4, 120);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    text-align:center ;
+    width: 80px;
+  }
+  
+.footer{
+  background-color: rgb(246, 142, 7);
+  text-align: center;
+  padding-top: 15px;
+  }
+   
+  
+
+
+
+
+
+

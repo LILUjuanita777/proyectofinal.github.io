@@ -1,0 +1,54 @@
+
+body{
+    background-color: rgb(255, 191, 1);;
+}
+
+
+h1{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color:rgb(230, 4, 120);
+font-size: 70px;
+margin-bottom: 40px;
+
+text-align: center;
+
+}
+
+p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 10px 200px 10px 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boton{
+padding: 13px 15px;
+background-color: rgb(230, 4, 120);
+font-size: 17px;
+color: black;
+width: 300px;
+border-radius: 25px;
+
+}
+img{
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    padding: 10px 10px 70px 10px;
+}
+.tarjeta{
+    flex-basis: calc(50% - 100px);
+    background-color: rgb(255, 153, 1);
+    border-radius: 25px;
+    margin-right: 100px;
+    text-align: center;
+    padding: 100px;
+    width: 1000px;
+    height: 250px;
+  
+  }
+  .tarjeta img{
+    align-items: center;
+  }

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+/*
+familia de fuentes: 'Bebas Neue', sans-serif;
+familia de fuentes: 'Mochiy Pop One', sans-serif;
+*/
+body{
+    background-color: rgb(255, 191, 1);
+}
+.form-login {
+    text-align: center;
+ }
+ .input-container > input{
+    margin-bottom: 10px;
+    border-radius: 25px;
+   background: rgb(255, 191, 1);
+  font-size: 21px;
+  text-align: center;
+}
+
+  h4{
+    font-size: 30px;
+    color: rgb(230, 4, 120);
+}
+
+.btn{
+background-color:  rgb(230, 4, 120);
+border-radius: 20px;
+margin-bottom: 15px;
+font-size: 15px;
+text-align:center ;
+width: 80px;
+}
+.a{
+    font-size: 10px;
+    color: rgb(245, 15, 38);
+}
